@@ -52,15 +52,15 @@ header{
     background: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .mid .banner{
     text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    
     color: #fff;
 }
 
