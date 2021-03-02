@@ -48,7 +48,7 @@ header{
 
 .mid{
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     background: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,6 +136,10 @@ i:hover{
 }
 
 @media only screen and (max-width:988px){
+
+    html{
+        font-size: 13.5px;
+    }
 
     .navbar{
         padding: 1rem;
